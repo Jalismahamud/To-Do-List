@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+            <h1>Discount Calculator</h1>
+            <div class="input-feild">
+                <label for="">Enter prince</label><br>
+                <input id="price" type="number" placeholder="Enter the price">
+            </div>
+            <div class="input-feild">
+                <label for="">Discount <span>(%)</span></label><br>
+                <input id="discout-price" type="number" placeholder="Discount Persentage"><br>
+
+                <div class="input-feild">
+                    <label for="discounted-price">Discounted Price</label><br>
+                    <input id="discounted-price" type="text"><br>
+                </div>
+                
+            <button class="button"onclick="calculateDiscount()">Calculate</button>
+            
+
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
